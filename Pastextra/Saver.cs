@@ -46,7 +46,7 @@ namespace Pastextra
 
         public Saver(string path, Image val)
         {
-            val.Save(path + DateTime.Now.ToString("yyyyMMddHHmmss") + ".png", ImageFormat.Png);
+            val.Save(path + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpg", ImageFormat.jpg);
         }
 
 
